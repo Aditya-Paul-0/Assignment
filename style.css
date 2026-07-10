@@ -1,0 +1,37 @@
+*{margin:0;
+  padding:0;
+}
+header{
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  gap: 200px;
+  padding-left: 35px;
+  padding-right: 35px;
+  justify-content: center;
+  align-items: center;
+  }
+nav ul{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+div{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+button{
+  background-color: mediumblue;
+  color: white;
+  width: 100px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius: 5px;
+  border-style: none;
+}
